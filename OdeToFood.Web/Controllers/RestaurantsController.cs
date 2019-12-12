@@ -29,7 +29,12 @@ namespace OdeToFood.Web.Controllers
             {
                 return View("NotFound");
             }
-                return View(model);
+            return View(model);
+        }
+
+        public ActionResult Create()
+        {
+            return View();
         }
     }
 }
