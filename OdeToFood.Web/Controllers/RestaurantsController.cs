@@ -57,7 +57,7 @@ namespace OdeToFood.Web.Controllers
                 return View();
             }
 
-            return View();
+            return View(); 
         }
 
     }
