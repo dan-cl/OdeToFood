@@ -54,7 +54,7 @@ namespace OdeToFood.Web.Controllers
             if (ModelState.IsValid)
             {
                 _db.Add(restaurant);
-                return View();
+                return RedirectToAction("Details", new {id = restaurant.Id});
             }
 
             return View(); 
