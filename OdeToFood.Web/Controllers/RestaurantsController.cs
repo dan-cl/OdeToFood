@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using OdeToFood.Data.Models;
 using OdeToFood.Data.Services;
 
 namespace OdeToFood.Web.Controllers
@@ -16,12 +17,15 @@ namespace OdeToFood.Web.Controllers
             _db = db;
         }
         // GET: Restaurants
+
+        [HttpGet]
         public ActionResult Index()
         {
             var model = _db.GetAll();
             return View(model);
         }
 
+        [HttpGet]
         public ActionResult Details(int id)
         {
             var model = _db.Get(id);
@@ -32,9 +36,19 @@ namespace OdeToFood.Web.Controllers
             return View(model);
         }
 
+        [HttpGet]
         public ActionResult Create()
         {
             return View();
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken ]
+        public ActionResult Create(Restaurant restaurant)
+        {
+            _db.Add(restaurant);
+            return View();
+        }
+
     }
 }
