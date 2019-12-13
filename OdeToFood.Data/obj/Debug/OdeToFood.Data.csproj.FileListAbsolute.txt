@@ -5,3 +5,8 @@ C:\Users\Dan\source\repos\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.pdb
 C:\Users\Dan\source\repos\OdeToFood\OdeToFood.Data\bin\Debug\System.ComponentModel.Annotations.dll
 C:\Users\Dan\source\repos\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.csprojAssemblyReference.cache
 C:\Users\Dan\source\repos\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.csproj.CopyComplete
+C:\Users\Dan\source\repos\OdeToFood\OdeToFood.Data\bin\Debug\OdeToFood.Data.dll.config
+C:\Users\Dan\source\repos\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.dll
+C:\Users\Dan\source\repos\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dan\source\repos\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.xml
+C:\Users\Dan\source\repos\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.SqlServer.xml
